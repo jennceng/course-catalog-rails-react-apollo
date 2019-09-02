@@ -2,11 +2,16 @@
   "name": "course-catalog-rails-react-apollo",
   "private": true,
   "dependencies": {
+    "@apollo/react-hooks": "^3.0.1",
     "@rails/webpacker": "3.5",
+    "apollo-boost": "^0.4.4",
     "babel-preset-react": "~6.24.1",
+    "graphql": "^14.5.3",
     "prop-types": "~15.6.0",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
     "redbox-react": "1.6.0"
   },
   "devDependencies": {
