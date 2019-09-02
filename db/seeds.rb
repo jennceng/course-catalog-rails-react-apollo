@@ -15,7 +15,7 @@ end
 
 Professor.all.each do |p|
   3.times do
-    Course.find_or_create_by(professor: p, name: Faker::Educator.course_name , catalog_number: "#{Faker::Educator.subject} #{rand(100) + 1}")
+    Course.find_or_create_by(professor: p, name: Faker::Educator.course_name , catalog_number: "#{Faker::Educator.subject} #{rand(100) + 1}", description: "Learn about #{Faker::ProgrammingLanguage.name} like you were sitting right next to #{Faker::ProgrammingLanguage.creator}")
   end
 end
 
