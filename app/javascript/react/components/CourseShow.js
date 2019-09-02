@@ -37,7 +37,7 @@ const Course = (props) => {
         </tr>
         {data.course && (
           <React.Fragment>
-              {data.course.reviews.map(review => (<tr key={review.id}><th>{review.rating}</th> <th>{review.body}</th></tr>))}
+              {data.course.reviews.map(review => (<tr key={review.id}><th>{review.rating}</th><th>{review.body}</th></tr>))}
           </React.Fragment>
         )}
       </tbody>
